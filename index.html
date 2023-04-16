@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="군산여고 세계 책의 날 도서관 탈출" />
+    <meta property="og:description" content="단서를 찾아 도서관을 탈출하세요" />
+    <meta property="og:image" content="lib.jpg" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="storybox">
+            <div class="st-modal">
+                <div class="st-modal-content">
+                    잘못된 키워드입니다.
+                </div>                
+            </div>
+            <div id="already-modal" class="already-modal">
+                <div class="already-modal-content">
+                    이미 찾은 아이템입니다. 인벤토리를 확인하세요.
+                </div>
+            </div>
+            <div class="outputbox">세계 책과 저작권의 날 기념<br>도서관 탈출에 오신 것을 환영합니다.<br><br>시작하시려면 '시작'를 입력하세요.</div>
+
+            <input type="text" class="inputbox" placeholder="키워드를 입력하세요">
+            <div class="button-container">
+                <button class="button">입력</button>
+                <button type="button" class="ivnopen-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    인벤토리
+                </button>
+                
+            </div>             
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">아이템 인벤토리</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                             <div class="itm-namebox"></div>
+                            <div class="itm-infobox"></div>
+
+                                <button type="button" class="ivtclose-btn" data-bs-dismiss="modal">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+
+
+        <div id="hint-modal" class="hint-modal">
+            <div class="hint-modal-content">
+            <p id="hint-text"></p>
+            <button id="hint-modal-close">닫기</button>
+            </div>
+        </div>
+
+
+        <div id="finditem-modal" class="finditem-modal">
+            <div class="finditem-modal-content">
+            아이템을 찾았습니다!<br>인벤토리를 확인하세요
+            <button id="finditem-modal-close">닫기</button>
+            </div>
+        </div>
+        <script src="script.js"></script>    
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMxKtTvo1JfZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
