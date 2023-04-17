@@ -15,6 +15,7 @@ body {
   
   /* Storybox */
   .storybox {
+    background-image: url(lib.jpg);
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -274,4 +275,13 @@ body {
 .roses {
     font-family: 'Indie Flower', cursive;
     font-size: 15px;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: bold;
+  color: crimson;
 }
