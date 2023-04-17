@@ -10,24 +10,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 800px;
-    width: 450px;
-    margin: auto;
+    width: 370px;
   }
   
   /* Storybox */
   .storybox {
-    background-image: url(lib.jpg);
+    background-color: black;
     background-position: center;
     background-size: cover;
 
-    width: 400px;
+    width: 350px;
     height: 700px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 15px;
   }
   
   /* Outputbox */
@@ -88,7 +87,7 @@ body {
   }
   
   .button{
-    margin-left: 110px;
+    margin-left: 90px;
     width: 100px;
   }
 
@@ -99,7 +98,7 @@ body {
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
   
@@ -120,7 +119,7 @@ body {
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 40%;
+    top: 450px;
     transform: translate(-50%, -50%);
     width: 250px;
     height: 15px;
