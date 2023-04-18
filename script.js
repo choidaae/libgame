@@ -74,20 +74,21 @@ function getInputResult(input) {
         
         '사물함': '<br><br><br><br>사물함은 네자리의 자물쇠로 잠겨있다.<br>자물쇠 몸통엔 MMDD라고 적혀있다.<br><br><br><span class="small">🔔입력 키워드는 <span class=bold>문제의 답</span>을 요구하기도 합니다.<br>소지품 내 <span class="pp">아이템을 클릭</span>하여<br>답을 찾을 수도 있습니다.<br>자물쇠 번호를 찾아 입력해보세요.<br><br>힌트는 스토리 흐름이 막히는 친구를 위해 준비했습니다. 최대한 사용하지 않고 풀어보세요.</span><br><br><div class="btn-group"><button type="button" class="btn btn-secondary popoverBtn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="주머니 속 초대장을 발견했다면 소지품에 아이템이 등록됩니다. 소지품 내 아이템 버튼을 클릭하여 단서를 찾아보세요. m은 month(월) d는 day(일)을 뜻합니다">힌트1</button><button id="backButton" class="btn btn-secondary">이전</button></div>',
         
-        '0423': '자물쇠를 풀자 안에는 양초와 성냥이 가득 들어있다.<br>배터리가 다 된 핸드폰은 꺼져버렸다.<br><br>불을 붙이니 주변이 밝아졌다. <br>눈 앞에 정기간행물, 북큐레이션, 정수기가 보인다.<br><br><span class="small">🔔지문에서 관찰하려는 키워드를 입력해보세요.</span>',
+        '0423': '자물쇠를 풀자 안에는<br>양초와 성냥이 가득 들어있다.<br>배터리가 다 된 핸드폰은 꺼져버렸다.<br><br>불을 붙이니 주변이 밝아졌다. <br>눈 앞에 정기간행물, 북큐레이션, 정수기가 보인다.<br><br><span class="small">🔔지문에서 관찰하려는 키워드를 입력해보세요.</span>',
         
         '북큐레이션': '창가 큐레이션 코너에 책이 놓여있다<br><br><br><span class="pp">[세계 책의 날 기념 큐레이션 도서]<br>어린왕자, 꽃들에게 희망을, 멕베스,<br>노인과 바다, 로미오와 줄리엣</span><br>눈 앞엔 메모지가 보인다<br><br><span class="books">소행성에서<br>숨겨진 코드를 찾아와.<br>C K I E N A V O</span><br><div class="btn-group"><button type="button" class="btn btn-secondary popoverBtn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="이전에 [정기간행물] 코너는 둘러보셨나요? 이곳에서 얻어야 하는 책에 대한 단서가 있어요!">힌트2</button><button type="button" class="btn btn-secondary popoverBtn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="작은 별에서 온 주인공은 누구일까요? 숫자와 알파벳 배열을 매칭하세요. 예를 들어 5는 N입니다. 문제의 답은 대문자로 적어주세요.">힌트3</button><button id="backButton" class="btn btn-secondary">이전</button></div>',
 
         'BACK': 'BACK...? 뒤집으라는 뜻인가.<br>카드를 뒤집으니 또 다른 문장이 적혀있다.<br><br><span class="books">난 그림자로 끝나고 싶지 않아.<br>난 계속 모습을 드러내고 싶어.<br>"그것"을 꺼뜨리지 말고<br>내게 가까이 가져와 줘.</span><br><div class="btn-group"><button type="button" class="btn btn-secondary popoverBtn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="책의 날 큐레이션 도서에서 힌트를 찾아보세요.">힌트4</button><button id="backButton" class="btn btn-secondary">이전</button></div>',
 
-        '촛불': '촛불을 종이에 가까이 대자 따뜻해진 종이에 숨겨진 글씨가 떠오른다.<br><br><span class="books">내 이름을 불러줘.<br>나는 어린왕자가 사랑한 존재.<br>나는 로미오와 줄리엣의 사랑의 상징.<br>세인트 조지의 날에 사람들에게 선물로 전해지는 것.</span>',
+        '촛불': '들고있던 양초를 종이에 가까이 대자 따뜻해진 종이에 숨겨진 글씨가 떠오른다.<br><br><span class="books">내 이름을 불러줘.<br>나는 어린왕자가 사랑한 존재.<br>나는 로미오와 줄리엣의 사랑의 상징.<br>세인트 조지의 날에 사람들에게 선물로 전해지는 것.</span>',
 
         '장미': '장미라고 작게 답을 말하자 갑자기 주변이 환해지며 누군가의 목소리가 들린다.<br><br><span class="roses">나를 불러줘서 고마워.<br>나는 잊혀지고 싶지 않은 이야기야.<br>많은 이야기 속 헌신과 용기와 아름다움과 희망을 통해 자라는 존재야.<br><br>우리는 한 때 무성하게 피어나 세상을 향기로 가득 채웠지만 이제는 점차 사라져가고 있어.<br>이렇게라도 너희들의 기억에 남고 싶었어.<br><br>책을 많이 읽고 이야기꽃을 피울수록<br>우리가 다시 자라날 수 있어.<br><br>기억해 책을 편다는 것은<br>하나의 꽃이 피어나는 것.<br><br>이제 너를 보내줄게.<br>다른 사람들에게 나를 알려줘.</span><button type="button" class="btn btn-secondary popoverBtn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="탈출 성공! 해당 화면을 캡쳐해서 도서부 또는 사서선생님께 보여주세요.">도서관 탈출</button>'
     };
 
   const hints = {
       '핸드폰': '배터리 충전을 미리 해놓을걸!',
-      '양초': '양초가 아주 넉넉하게 들어있다.',
+      '양초': '양초가 환하게 빛난다.',
+      '성냥': '성냥이 넉넉하게 들어있다',
       '정기간행물': '잡지 표지에 누군가 휘갈겨 쓴 글씨로 “사망자의 책을 펼쳐라”라고 적혀있다.',
       '정수기': '물이 아주 맛있군!',
       '노인과 바다': '물론 바다는 상냥하고 무척이나 아름답지. 하지만 때로는 정말 잔인해지기도 하고 어느 순간 휘몰아치기도 하잖아.',
